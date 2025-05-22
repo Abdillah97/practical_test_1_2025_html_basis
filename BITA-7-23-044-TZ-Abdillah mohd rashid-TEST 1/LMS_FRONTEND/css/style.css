@@ -1,0 +1,15 @@
+/* style.css - Table hover styling */
+table tbody tr:hover {
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
+/* Force DataTables features (search, pagination etc.) to have white background */
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+  background-color: white !important;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
